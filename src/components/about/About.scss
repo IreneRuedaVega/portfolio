@@ -1,0 +1,143 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  height: 70vh;
+  font-family: "Montserrat", sans-serif;
+
+  &__container-photo {
+    border: 2px solid black;
+    margin: 64px 32px 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &--photo {
+      width: 215px;
+      margin: 20px 4px;
+    }
+  }
+
+  &__desc {
+    margin: 0 32px;
+    border: 2px solid black;
+
+    &--topbar {
+      background-color: white;
+      border-bottom: 2px solid black;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &--title {
+      font-weight: 600;
+      font-style: italic;
+      font-size: 18px;
+      margin-right: 86px;
+    }
+  }
+
+  &__job-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 16px 0 16px 16px;
+  }
+
+  &__desc-irene {
+    margin: 0 16px 16px 16px;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  &__desc-skills {
+    margin: 0 16px 16px 16px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  &__skills {
+    font-size: 20px;
+    font-weight: 600;
+    width: 113px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 32px 0 48px;
+    border: 2px solid black;
+    background-color: white;
+
+    &--arrow {
+      margin: 10px 0 10px 8px;
+      transform: rotate(90deg);
+    }
+
+    &--title {
+      margin: 10px 8px 10px 0;
+      color: black;
+      font-weight: 600;
+      font-size: 20px;
+    }
+  }
+
+  &__tecnologies {
+    margin: 0 32px 0 32px;
+    position: relative;
+    bottom: 23px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+    &--part1 {
+      /*   background-color: red; */
+      margin-top: 38px;
+    }
+    &--part2 {
+      /*   background-color: blue; */
+      margin: 16px 0 28px 0;
+    }
+  }
+}
+
+.topbar-circles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  &__1 {
+    width: 16px;
+    height: 16px;
+    background-color: #8787ff;
+    border: 2px solid black;
+    margin-left: 10px;
+    border-radius: 20px;
+  }
+  &__2 {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 6px;
+    border-radius: 20px;
+  }
+  &__3 {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 6px;
+    border-radius: 20px;
+  }
+}
+
+.logo {
+  margin: 0 8px;
+}

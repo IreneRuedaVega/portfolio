@@ -17,6 +17,7 @@ const Cover = () => {
         Junior frontend dev | JavaScript &#38; React <br /> HTML5 &#38; CSS3
         (SASS) | Agile &#38; SCRUM
       </p>
+      <button className="cover-container__scroll"></button>
     </div>
   );
 };
