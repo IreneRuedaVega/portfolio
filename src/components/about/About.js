@@ -46,25 +46,27 @@ const About = () => {
           equipo.
         </p>
       </div>
-      <div className="about-container__skills">
-        <h3 className="about-container__skills--title">Skills</h3>
-        <img
-          className="about-container__skills--arrow"
-          src={Arrow}
-          alt="Flecha para indicar las skills"
-        />
-      </div>
-      <div className="about-container__tecnologies">
-        <div className="about-container__tecnologies--part1">
-          <img className="logo" src={LogoReact} alt="Logo de react" />
-          <img className="logo" src={LogoJS} alt="Logo de JavaScript" />
-          <img className="logo" src={LogoHtml} alt="Logo de Html" />
-          <img className="logo" src={LogoCss} alt="Logo de Css" />
+      <div className="about-container__skills-part">
+        <div className="about-container__skills">
+          <h3 className="about-container__skills--title">Skills</h3>
+          <img
+            className="about-container__skills--arrow"
+            src={Arrow}
+            alt="Flecha para indicar las skills"
+          />
         </div>
-        <div className="about-container__tecnologies--part2">
-          <img className="logo" src={LogoSass} alt="Logo de Sass" />
-          <img className="logo" src={LogoGit} alt="Logo de Git" />
-          <img className="logo" src={LogoGulp} alt="Logo de Gulp" />
+        <div className="about-container__tecnologies">
+          <div className="about-container__tecnologies--part1">
+            <img className="logo" src={LogoReact} alt="Logo de react" />
+            <img className="logo" src={LogoJS} alt="Logo de JavaScript" />
+            <img className="logo" src={LogoHtml} alt="Logo de Html" />
+            <img className="logo" src={LogoCss} alt="Logo de Css" />
+          </div>
+          <div className="about-container__tecnologies--part2">
+            <img className="logo" src={LogoSass} alt="Logo de Sass" />
+            <img className="logo" src={LogoGit} alt="Logo de Git" />
+            <img className="logo" src={LogoGulp} alt="Logo de Gulp" />
+          </div>
         </div>
       </div>
     </div>

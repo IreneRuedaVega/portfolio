@@ -3,8 +3,13 @@
   flex-direction: column;
   background-color: white;
   color: black;
-  height: 70vh;
+  height: 240vh;
   font-family: "Montserrat", sans-serif;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 150vh;
+  }
 
   &__container-photo {
     border: 2px solid black;
@@ -12,15 +17,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media all and (min-width: 768px) {
+      order: -1;
+      padding: 0 32px;
+      height: 320px;
+      margin: 64px 0 0 64px;
+    }
     &--photo {
       width: 215px;
       margin: 20px 4px;
+      @media all and (min-width: 768px) {
+        width: 250px;
+      }
     }
   }
 
   &__desc {
     margin: 0 32px;
     border: 2px solid black;
+    @media all and (min-width: 768px) {
+      order: 1;
+      margin: 0 64px 0 64px;
+    }
 
     &--topbar {
       background-color: white;
@@ -36,6 +54,10 @@
       font-style: italic;
       font-size: 18px;
       margin-right: 86px;
+
+      @media all and (min-width: 768px) {
+        margin-right: 260px;
+      }
     }
   }
 
@@ -43,12 +65,21 @@
     font-size: 22px;
     font-weight: 600;
     margin: 16px 0 16px 16px;
+
+    @media all and (min-width: 768px) {
+      margin: 32px 0 16px 32px;
+    }
   }
 
   &__desc-irene {
     margin: 0 16px 16px 16px;
     text-align: left;
     font-size: 16px;
+    font-weight: 500;
+    @media all and (min-width: 768px) {
+      margin: 0 32px 0 32px;
+      letter-spacing: -0.4px;
+    }
   }
 
   &__desc-skills {
@@ -56,6 +87,11 @@
     text-align: left;
     font-size: 16px;
     font-weight: 500;
+
+    @media all and (min-width: 768px) {
+      margin: 16px 32px 0 32px;
+      letter-spacing: -0.4px;
+    }
   }
 
   &__skills {
@@ -70,6 +106,11 @@
     margin: 16px 32px 0 48px;
     border: 2px solid black;
     background-color: white;
+    transform: translate(0%, 50%);
+    @media all and (min-width: 768px) {
+      margin: 0;
+      transform: translate(45%, 35%);
+    }
 
     &--arrow {
       margin: 10px 0 10px 8px;
@@ -86,22 +127,30 @@
 
   &__tecnologies {
     margin: 0 32px 0 32px;
-    position: relative;
-    bottom: 23px;
-    z-index: -1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 2px solid black;
+    @media all and (min-width: 768px) {
+      margin: -7px 32px 0 32px;
+    }
 
     &--part1 {
-      /*   background-color: red; */
       margin-top: 38px;
     }
     &--part2 {
-      /*   background-color: blue; */
       margin: 16px 0 28px 0;
+    }
+  }
+
+  &__skills-part {
+    display: block;
+    @media all and (min-width: 768px) {
+      order: 0;
+      width: 345px;
+      height: 220px;
+      margin-top: 181.3px;
     }
   }
 }
