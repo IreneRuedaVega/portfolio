@@ -13,9 +13,9 @@ import LogoGulp from "../../media/gulp.svg";
 const About = () => {
   return (
     <div className="about-container">
-      <div className="about-container__container-photo">
+      <div className="about-container__photo">
         <img
-          className="about-container__container-photo--photo"
+          className="about-container__container-photo--img"
           src={Photo}
           alt="Foto de Irene Rueda"
         />
@@ -27,10 +27,10 @@ const About = () => {
             <div className="topbar-circles__2"></div>
             <div className="topbar-circles__3"></div>
           </div>
-          <h3 className="about-container__desc--title">Sobre mí</h3>
+          <h3 className="title-topbar">Sobre mí</h3>
         </div>
-        <h3 className="about-container__job-title">Jr. frontend dev</h3>
-        <p className="about-container__desc-irene">
+        <h3 className="about-container__desc--job">Jr. frontend dev</h3>
+        <p className="about-container__desc--irene">
           Desarrolladora frontend y maestra especializada en tecnologías de la
           información y la comunicación. Como maestra he podido conocer de
           primera mano la importancia tanto de la educación como de la
@@ -39,30 +39,30 @@ const About = () => {
           desarrollo frontend. La posibilidad de crear contenidos digitales y
           darles vida es lo que me atrapó de esta profesión.
         </p>
-        <p className="about-container__desc-skills">
+        <p className="about-container__desc--skills">
           La superación, la adaptación y la perseverancia me llevan a afrontar
           retos más allá de mi zona de confort mientras que la empatía y mis
           habilidades comunicativas me permiten ser una buena compañera de
           equipo.
         </p>
       </div>
-      <div className="about-container__skills-part">
-        <div className="about-container__skills">
-          <h3 className="about-container__skills--title">Skills</h3>
+      <div className="about-container__skills">
+        <div className="about-container__skills--sign">
+          <h3 className="skills-title">Skills</h3>
           <img
-            className="about-container__skills--arrow"
+            className="skills-arrow"
             src={Arrow}
             alt="Flecha para indicar las skills"
           />
         </div>
-        <div className="about-container__tecnologies">
-          <div className="about-container__tecnologies--part1">
+        <div className="about-container__skills--tecnologies">
+          <div className="skills-tecnologies-1">
             <img className="logo" src={LogoReact} alt="Logo de react" />
             <img className="logo" src={LogoJS} alt="Logo de JavaScript" />
             <img className="logo" src={LogoHtml} alt="Logo de Html" />
             <img className="logo" src={LogoCss} alt="Logo de Css" />
           </div>
-          <div className="about-container__tecnologies--part2">
+          <div className="skills-tecnologies-2">
             <img className="logo" src={LogoSass} alt="Logo de Sass" />
             <img className="logo" src={LogoGit} alt="Logo de Git" />
             <img className="logo" src={LogoGulp} alt="Logo de Gulp" />

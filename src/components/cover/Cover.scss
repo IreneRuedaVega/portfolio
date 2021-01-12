@@ -27,7 +27,7 @@
       font-size: 80px;
     }
 
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1280px) {
       font-size: 96px;
     }
   }
@@ -45,12 +45,12 @@
       font-size: 23px;
     }
 
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: 1280px) {
       font-size: 28px;
     }
   }
 
-  &__scroll {
+  /*   &__scroll {
     width: 50px;
     height: 50px;
     background-image: url(../../media/scrollMouse.svg);
@@ -66,5 +66,5 @@
     @media all and (min-width: 1200px) {
       top: 250px;
     }
-  }
+  } */
 }

@@ -1,4 +1,156 @@
 .about-container {
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+  }
+  @media all and (min-width: 1280px) {
+    flex-direction: row;
+  }
+}
+
+.about-container__photo {
+  background-color: yellow;
+  margin: 64px 32px 16px 32px;
+  border: 2px solid black;
+  @media all and (min-width: 768px) {
+    order: -1;
+    margin: 64px 32px 32px 64px;
+  }
+  @media all and (min-width: 1280px) {
+    order: -1;
+    margin: 64px 32px 32px 64px;
+  }
+}
+
+.about-container__container-photo--img {
+  width: 200px;
+  height: 200px;
+  margin: 24px;
+}
+
+.about-container__desc {
+  background-color: blue;
+  @media all and (min-width: 768px) {
+    order: 1;
+  }
+  @media all and (min-width: 1280px) {
+    order: 1;
+  }
+}
+
+.about-container__desc--topbar {
+  background-color: chartreuse;
+  display: grid;
+  grid-template-columns: 25% 25%;
+  grid-gap: 50px;
+
+  .topbar-circles {
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .topbar-circles__1,
+    .topbar-circles__2,
+    .topbar-circles__3 {
+      background-color: pink;
+      width: 16px;
+      height: 16px;
+      border-radius: 20px;
+      background-color: white;
+      border: 2px solid black;
+    }
+
+    .topbar-circles__1 {
+      background-color: red;
+      background-color: #8787ff;
+    }
+  }
+
+  .title-topbar {
+    background-color: coral;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 17px;
+  }
+}
+
+.about-container__desc--job {
+  background-color: orange;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 16px 32px;
+}
+.about-container__desc--irene {
+  background-color: pink;
+  margin: 16px 32px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.about-container__desc--skills {
+  background-color: brown;
+  margin: 16px 32px 36px 32px;
+}
+
+.about-container__skills {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  margin: 0 32px 64px 32px;
+  @media all and (min-width: 768px) {
+    order: 0;
+    flex-wrap: wrap;
+  }
+  @media all and (min-width: 1280px) {
+    order: 1;
+  }
+}
+
+.about-container__skills--sign {
+  background-color: crimson;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+  width: 113px;
+  padding: 10px;
+  margin-right: 100px;
+  transform: translateY(50%);
+
+  .skills-title {
+    background-color: darkblue;
+  }
+  .skills-arrow {
+    background-color: darkcyan;
+    transform: rotate(90deg);
+  }
+}
+
+.about-container__skills--tecnologies {
+  background-color: darkkhaki;
+  padding: 39px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-tecnologies-1 {
+  margin-bottom: 16px;
+}
+
+.logo {
+  /* width: 35px; */
+  margin-right: 8px;
+}
+
+/* .about-container {
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -9,6 +161,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     height: 150vh;
+  }
+  @media all and (min-width: 1280px) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    height: 70vh;
   }
 
   &__container-photo {
@@ -23,6 +182,12 @@
       height: 320px;
       margin: 64px 0 0 64px;
     }
+    @media all and (min-width: 1280px) {
+      order: -1;
+      margin: 0;
+      background-color: blue;
+      margin-left: 32
+    }
     &--photo {
       width: 215px;
       margin: 20px 4px;
@@ -30,16 +195,24 @@
         width: 250px;
       }
     }
-  }
-
+  } */
+/* 
   &__desc {
     margin: 0 32px;
     border: 2px solid black;
     @media all and (min-width: 768px) {
       order: 1;
-      margin: 0 64px 0 64px;
+      margin: 0 64px 32px 64px;
     }
-
+    @media all and (min-width: 1280px) {
+      background-color: red;
+      height: 320px;
+      width: 680px;
+      order: 0;
+      /* margin: 64px 0 0 32px; */
+/*   margin: 0; */
+/*  } */
+/* 
     &--topbar {
       background-color: white;
       border-bottom: 2px solid black;
@@ -47,115 +220,95 @@
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-    }
-
+    } */
+/* 
     &--title {
       font-weight: 600;
       font-style: italic;
       font-size: 18px;
       margin-right: 86px;
-
       @media all and (min-width: 768px) {
         margin-right: 260px;
       }
-    }
-  }
-
-  &__job-title {
-    font-size: 22px;
-    font-weight: 600;
-    margin: 16px 0 16px 16px;
-
-    @media all and (min-width: 768px) {
-      margin: 32px 0 16px 32px;
-    }
-  }
-
-  &__desc-irene {
-    margin: 0 16px 16px 16px;
-    text-align: left;
-    font-size: 16px;
-    font-weight: 500;
-    @media all and (min-width: 768px) {
-      margin: 0 32px 0 32px;
-      letter-spacing: -0.4px;
-    }
-  }
-
-  &__desc-skills {
-    margin: 0 16px 16px 16px;
-    text-align: left;
-    font-size: 16px;
-    font-weight: 500;
-
-    @media all and (min-width: 768px) {
-      margin: 16px 32px 0 32px;
-      letter-spacing: -0.4px;
-    }
-  }
-
-  &__skills {
-    font-size: 20px;
-    font-weight: 600;
-    width: 113px;
-    height: 44px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 16px 32px 0 48px;
-    border: 2px solid black;
-    background-color: white;
-    transform: translate(0%, 50%);
-    @media all and (min-width: 768px) {
-      margin: 0;
-      transform: translate(45%, 35%);
-    }
-
-    &--arrow {
-      margin: 10px 0 10px 8px;
-      transform: rotate(90deg);
-    }
-
-    &--title {
-      margin: 10px 8px 10px 0;
-      color: black;
+    } */
+/* 
+    &--job {
+      font-size: 22px;
       font-weight: 600;
-      font-size: 20px;
-    }
-  }
+      margin: 16px 0 16px 16px;
+      @media all and (min-width: 768px) {
+        margin: 32px 0 16px 32px;
+      }
+    } */
 
-  &__tecnologies {
-    margin: 0 32px 0 32px;
+/* &--irene {
+      margin: 0 16px 16px 16px;
+      text-align: left;
+      font-size: 16px;
+      font-weight: 500;
+      @media all and (min-width: 768px) {
+        margin: 0 32px 0 32px;
+        letter-spacing: -0.4px;
+      }
+    } */
+
+/*  &--skills {
+      margin: 0 16px 16px 16px;
+      text-align: left;
+      font-size: 16px;
+      font-weight: 500;
+      @media all and (min-width: 768px) {
+        margin: 16px 32px 0 32px;
+        letter-spacing: -0.4px;
+      }
+    } */
+/*  } */
+
+/* &__skills {
+    border: 2px solid black;
+    margin: 38px 32px 0 32px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
     @media all and (min-width: 768px) {
-      margin: -7px 32px 0 32px;
-    }
-
-    &--part1 {
-      margin-top: 38px;
-    }
-    &--part2 {
-      margin: 16px 0 28px 0;
-    }
-  }
-
-  &__skills-part {
-    display: block;
-    @media all and (min-width: 768px) {
+      width: 280px;
+      height: 175px;
+      margin-top: 209px;
       order: 0;
-      width: 345px;
-      height: 220px;
-      margin-top: 181.3px;
+    }
+    @media all and (min-width: 1280px) {
+      background-color: pink;
+      order: 1;
+      margin: 0;
+    }
+    &--sign {
+      background-color: white;
+      transform: translate(-50%, -50%);
+      width: 113px;
+      height: 44px;
+      display: flex;
+      flex-direction: row;
+      border: 2px solid black;
+      .skills-title {
+        margin: 10px 0 10px 16px;
+      }
+      .skills-arrow {
+        margin: 10px 14px 10px 17px;
+        transform: rotate(90deg);
+      }
+    }
+    &--tecnologies {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 16px;
     }
   }
 }
-
-.topbar-circles {
+ */
+/* .topbar-circles {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -188,5 +341,5 @@
 }
 
 .logo {
-  margin: 0 8px;
-}
+  margin: 8px 8px;
+} */
