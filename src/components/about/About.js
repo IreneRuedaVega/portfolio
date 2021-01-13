@@ -30,14 +30,17 @@ const About = () => {
           <h3 className="title-topbar">Sobre mí</h3>
         </div>
         <h3 className="about-container__desc--job">Jr. frontend dev</h3>
-        <p className="about-container__desc--irene">
+        <p className="about-container__desc--intro">
           Desarrolladora frontend y maestra especializada en tecnologías de la
-          información y la comunicación. Como maestra he podido conocer de
-          primera mano la importancia tanto de la educación como de la
-          tecnología. Siendo profesora de robótica comenzó mi interés por la
-          creatividad y la programación, lo que me llevó a formarme en el
-          desarrollo frontend. La posibilidad de crear contenidos digitales y
-          darles vida es lo que me atrapó de esta profesión.
+          información y la comunicación.
+        </p>
+        <p className="about-container__desc--irene">
+          Como maestra he podido conocer de primera mano la importancia tanto de
+          la educación como de la tecnología. Siendo profesora de robótica
+          comenzó mi interés por la creatividad y la programación, lo que me
+          llevó a formarme en el desarrollo frontend. La posibilidad de crear
+          contenidos digitales y darles vida es lo que me atrapó de esta
+          profesión.
         </p>
         <p className="about-container__desc--skills">
           La superación, la adaptación y la perseverancia me llevan a afrontar

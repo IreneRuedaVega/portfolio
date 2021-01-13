@@ -5,25 +5,31 @@
   justify-content: center;
   align-items: center;
   font-family: "Montserrat", sans-serif;
+
   @media all and (min-width: 768px) {
     flex-direction: row;
+    flex-wrap: wrap;
   }
   @media all and (min-width: 1280px) {
     flex-direction: row;
+    flex-wrap: nowrap;
   }
 }
 
 .about-container__photo {
   background-color: yellow;
-  margin: 64px 32px 16px 32px;
+  margin: 64px 32px 32px 32px;
   border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   @media all and (min-width: 768px) {
     order: -1;
-    margin: 64px 32px 32px 64px;
   }
   @media all and (min-width: 1280px) {
     order: -1;
-    margin: 64px 32px 32px 64px;
+    width: 412px;
+    height: 412px;
   }
 }
 
@@ -31,29 +37,48 @@
   width: 200px;
   height: 200px;
   margin: 24px;
+
+  @media all and (min-width: 1280px) {
+    width: 348px;
+    height: 348px;
+  }
 }
 
 .about-container__desc {
   background-color: blue;
+  border: 2px solid black;
+  margin: 0 32px 0 32px;
   @media all and (min-width: 768px) {
     order: 1;
+    width: 706px;
+    margin: 0 58px 0 58px;
   }
   @media all and (min-width: 1280px) {
     order: 1;
+    width: 728px;
+    height: 412px;
+    margin: 35px 0 0 0;
   }
 }
 
 .about-container__desc--topbar {
   background-color: chartreuse;
   display: grid;
-  grid-template-columns: 25% 25%;
-  grid-gap: 50px;
+  grid-template-columns: 25% 67%;
+  grid-gap: 8%;
+  text-align: left;
+
+  @media all and (min-width: 768px) {
+    grid-template-columns: 15% 58.7%;
+    grid-gap: 26.3%;
+  }
 
   .topbar-circles {
     background-color: chocolate;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+
     .topbar-circles__1,
     .topbar-circles__2,
     .topbar-circles__3 {
@@ -66,7 +91,6 @@
     }
 
     .topbar-circles__1 {
-      background-color: red;
       background-color: #8787ff;
     }
   }
@@ -75,7 +99,7 @@
     background-color: coral;
     font-weight: 600;
     font-style: italic;
-    font-size: 17px;
+    font-size: 18px;
   }
 }
 
@@ -83,32 +107,42 @@
   background-color: orange;
   font-size: 22px;
   font-weight: 600;
-  margin: 16px 32px;
+  margin: 16px;
 }
+.about-container__desc--intro,
 .about-container__desc--irene {
   background-color: pink;
-  margin: 16px 32px;
+  margin: 16px;
   text-align: left;
   font-size: 16px;
   font-weight: 500;
+
+  @media all and (min-width: 1280px) {
+    font-size: 18px;
+  }
 }
 
 .about-container__desc--skills {
   background-color: brown;
-  margin: 16px 32px 36px 32px;
+  margin: 16px;
+  @media all and (min-width: 1280px) {
+    font-size: 18px;
+  }
 }
 
 .about-container__skills {
-  background-color: pink;
+  background-color: darkgoldenrod;
   display: flex;
   flex-direction: column;
-  margin: 0 32px 64px 32px;
+  margin: 0 32px 0 32px;
+
   @media all and (min-width: 768px) {
-    order: 0;
-    flex-wrap: wrap;
+    width: 337px;
+    margin-top: 35px;
   }
   @media all and (min-width: 1280px) {
     order: 1;
+    width: 108px;
   }
 }
 
@@ -122,224 +156,77 @@
   padding: 10px;
   margin-right: 100px;
   transform: translateY(50%);
+  border: 2px solid black;
 
-  .skills-title {
-    background-color: darkblue;
+  @media all and (min-width: 768px) {
+    margin-right: 175px;
   }
-  .skills-arrow {
-    background-color: darkcyan;
-    transform: rotate(90deg);
+
+  @media all and (min-width: 1280px) {
+    margin-right: 250px;
+    margin-bottom: 50px;
+    padding: 10px;
+    transform: translate(32%, 268%);
+  }
+}
+
+.skills-title {
+  background-color: darkblue;
+}
+.skills-arrow {
+  background-color: darkcyan;
+  transform: rotate(90deg);
+
+  @media all and (min-width: 1280px) {
+    transform: rotate(0deg);
   }
 }
 
 .about-container__skills--tecnologies {
   background-color: darkkhaki;
   padding: 39px;
+  border: 2px solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media all and (min-width: 1280px) {
+    width: 108px;
+    height: 412px;
+    padding: 10px;
+    margin-bottom: 95px;
+  }
 }
 
 .skills-tecnologies-1 {
   margin-bottom: 16px;
-}
 
-.logo {
-  /* width: 35px; */
-  margin-right: 8px;
-}
-
-/* .about-container {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  color: black;
-  height: 240vh;
-  font-family: "Montserrat", sans-serif;
   @media all and (min-width: 768px) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 150vh;
+    margin-top: 16px;
   }
+
   @media all and (min-width: 1280px) {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: yellow;
-    height: 70vh;
-  }
-
-  &__container-photo {
-    border: 2px solid black;
-    margin: 64px 32px 16px 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    @media all and (min-width: 768px) {
-      order: -1;
-      padding: 0 32px;
-      height: 320px;
-      margin: 64px 0 0 64px;
-    }
-    @media all and (min-width: 1280px) {
-      order: -1;
-      margin: 0;
-      background-color: blue;
-      margin-left: 32
-    }
-    &--photo {
-      width: 215px;
-      margin: 20px 4px;
-      @media all and (min-width: 768px) {
-        width: 250px;
-      }
-    }
-  } */
-/* 
-  &__desc {
-    margin: 0 32px;
-    border: 2px solid black;
-    @media all and (min-width: 768px) {
-      order: 1;
-      margin: 0 64px 32px 64px;
-    }
-    @media all and (min-width: 1280px) {
-      background-color: red;
-      height: 320px;
-      width: 680px;
-      order: 0;
-      /* margin: 64px 0 0 32px; */
-/*   margin: 0; */
-/*  } */
-/* 
-    &--topbar {
-      background-color: white;
-      border-bottom: 2px solid black;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-    } */
-/* 
-    &--title {
-      font-weight: 600;
-      font-style: italic;
-      font-size: 18px;
-      margin-right: 86px;
-      @media all and (min-width: 768px) {
-        margin-right: 260px;
-      }
-    } */
-/* 
-    &--job {
-      font-size: 22px;
-      font-weight: 600;
-      margin: 16px 0 16px 16px;
-      @media all and (min-width: 768px) {
-        margin: 32px 0 16px 32px;
-      }
-    } */
-
-/* &--irene {
-      margin: 0 16px 16px 16px;
-      text-align: left;
-      font-size: 16px;
-      font-weight: 500;
-      @media all and (min-width: 768px) {
-        margin: 0 32px 0 32px;
-        letter-spacing: -0.4px;
-      }
-    } */
-
-/*  &--skills {
-      margin: 0 16px 16px 16px;
-      text-align: left;
-      font-size: 16px;
-      font-weight: 500;
-      @media all and (min-width: 768px) {
-        margin: 16px 32px 0 32px;
-        letter-spacing: -0.4px;
-      }
-    } */
-/*  } */
-
-/* &__skills {
-    border: 2px solid black;
-    margin: 38px 32px 0 32px;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    @media all and (min-width: 768px) {
-      width: 280px;
-      height: 175px;
-      margin-top: 209px;
-      order: 0;
-    }
-    @media all and (min-width: 1280px) {
-      background-color: pink;
-      order: 1;
-      margin: 0;
-    }
-    &--sign {
-      background-color: white;
-      transform: translate(-50%, -50%);
-      width: 113px;
-      height: 44px;
-      display: flex;
-      flex-direction: row;
-      border: 2px solid black;
-      .skills-title {
-        margin: 10px 0 10px 16px;
-      }
-      .skills-arrow {
-        margin: 10px 14px 10px 17px;
-        transform: rotate(90deg);
-      }
-    }
-    &--tecnologies {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 16px;
-    }
   }
 }
- */
-/* .topbar-circles {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  &__1 {
-    width: 16px;
-    height: 16px;
-    background-color: #8787ff;
-    border: 2px solid black;
-    margin-left: 10px;
-    border-radius: 20px;
-  }
-  &__2 {
-    width: 16px;
-    height: 16px;
-    background-color: white;
-    border: 2px solid black;
-    margin-left: 6px;
-    border-radius: 20px;
-  }
-  &__3 {
-    width: 16px;
-    height: 16px;
-    background-color: white;
-    border: 2px solid black;
-    margin-left: 6px;
-    border-radius: 20px;
+
+.skills-tecnologies-2 {
+  @media all and (min-width: 1280px) {
+    display: flex;
+    flex-direction: column;
   }
 }
 
 .logo {
-  margin: 8px 8px;
-} */
+  margin-right: 8px;
+
+  @media all and (min-width: 768px) {
+    margin: 5px 13px 0 13px;
+  }
+  @media all and (min-width: 1280px) {
+    margin: 10px 0;
+  }
+}
