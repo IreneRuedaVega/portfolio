@@ -24,12 +24,16 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     &--span {
-      color: #8787ff;
+      color: #ff7b9b;
     }
   }
 }
 
 .scrolling {
-  background-color: black;
+  background-color: #2a2a36;
   transition: all 0.5s ease;
+}
+
+.scrolling-span {
+  color: white;
 }
