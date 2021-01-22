@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body::-webkit-scrollbar-track {
+  border: 1px solid rgb(42, 42, 54);
+  background-color: rgb(42, 42, 54);
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgb(42, 42, 54);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(135, 135, 255);
+}
+
+/* rgb(42,42,54) rgb(135,135,255) RGB(255,123,155)*/
