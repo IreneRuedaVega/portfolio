@@ -50,6 +50,15 @@ const Footer = () => {
             <i className="fas fab2 fa-envelope mail"></i>
             <div className="liquid"></div>
           </a>
+          <a
+            className="links"
+            href="https://codepen.io/ruedavegairene"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-codepen codepen"></i>
+            <div className="liquid"></div>
+          </a>
         </div>
       </div>
     </footer>

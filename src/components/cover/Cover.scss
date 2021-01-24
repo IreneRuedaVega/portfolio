@@ -16,14 +16,13 @@
 
   &__name {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     text-align: center;
-    margin: 0 32px;
 
     @media all and (min-width: 768px) {
-      font-size: 80px;
+      font-size: 60px;
     }
 
     @media all and (min-width: 1280px) {
@@ -31,14 +30,17 @@
     }
   }
 
-  &__technologies {
+  &__job {
     color: white;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     margin-top: 8px;
     font-size: 11.5px;
     text-align: center;
-    margin: 0 32px;
+    margin-top: 16px;
+    border: 2px solid white;
+    padding: 5px 16px 5px 16px;
+    font-style: italic;
 
     @media all and (min-width: 768px) {
       font-size: 23px;
@@ -46,6 +48,7 @@
 
     @media all and (min-width: 1280px) {
       font-size: 28px;
+      width: 543px;
     }
   }
 

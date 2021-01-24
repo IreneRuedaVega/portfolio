@@ -6,7 +6,7 @@ import TeamworkContent from "./TeamworkContent";
 
 const Skills = () => {
   return (
-    <div className="skills-container">
+    <div className="skills-container" id="skills">
       <h2 className="skills-container__title">Habilidades</h2>
       <div className="skills-container__content">
         <WebDevContent

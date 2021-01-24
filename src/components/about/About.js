@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.scss";
-import Photo from "../../media/foto.png";
+import Photo from "../../media/avatarPortfolio.png";
 import Arrow from "../../media/arrow.svg";
 import LogoReact from "../../media/react.svg";
 import LogoJS from "../../media/js.svg";
@@ -12,7 +12,7 @@ import LogoGulp from "../../media/gulp.svg";
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" id="aboutMe">
       <div className="about-container__photo">
         <img
           className="about-container__photo--img"

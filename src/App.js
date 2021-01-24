@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter } from "react-router-dom";
 import "./App.scss";
 import Cover from "./components/cover/Cover";
 import Navbar from "./components/navbar/Navbar";
@@ -20,14 +21,16 @@ function App() {
   }, [scrollHeight]);
 
   return (
-    <div className="App">
-      <Navbar isScrolling={scrollHeight} />
-      <Cover />
-      <About />
-      <Slider />
-      <Skills />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar isScrolling={scrollHeight} />
+        <Cover />
+        <About />
+        <Slider />
+        <Skills />
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

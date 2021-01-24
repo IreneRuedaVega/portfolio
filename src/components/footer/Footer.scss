@@ -78,7 +78,7 @@
         position: relative;
         display: block;
         overflow: hidden;
-        border-radius: 12px;
+        border-radius: 10px;
         border: 2px solid white;
       }
 
@@ -91,7 +91,6 @@
           width: 75px;
           height: 75px;
           background: #8787ff;
-          border-radius: 12px;
           transition: 0.5s;
         }
 
@@ -131,9 +130,10 @@
       .linkedin,
       .twitter,
       .github,
-      .mail {
+      .mail,
+      .codepen {
         color: white;
-        font-size: 38px;
+        font-size: 25px;
         margin: 0 auto;
         padding: 10px;
         border-radius: 12px;
