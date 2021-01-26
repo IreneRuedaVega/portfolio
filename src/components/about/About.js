@@ -2,13 +2,13 @@ import React from "react";
 import "./About.scss";
 import Photo from "../../media/avatarPortfolio.png";
 import Arrow from "../../media/arrow.svg";
-import LogoReact from "../../media/react.svg";
-import LogoJS from "../../media/js.svg";
-import LogoHtml from "../../media/html.svg";
-import LogoCss from "../../media/css3.svg";
-import LogoSass from "../../media/sass.svg";
-import LogoGit from "../../media/git.svg";
-import LogoGulp from "../../media/gulp.svg";
+import Music from "../../media/musica.svg";
+import Cinema from "../../media/cine.svg";
+import Read from "../../media/libros.svg";
+import Play from "../../media/juegos.svg";
+import Camera from "../../media/camara.svg";
+import Teacher from "../../media/educacion.svg";
+import Code from "../../media/programar.svg";
 
 const About = () => {
   return (
@@ -42,33 +42,33 @@ const About = () => {
           contenidos digitales y darles vida es lo que me atrapó de esta
           profesión.
         </p>
-        <p className="about-container__desc--skills">
+        <p className="about-container__desc--hobbies">
           La superación, la adaptación y la perseverancia me llevan a afrontar
           retos más allá de mi zona de confort mientras que la empatía y mis
           habilidades comunicativas me permiten ser una buena compañera de
           equipo.
         </p>
       </div>
-      <div className="about-container__skills">
-        <div className="about-container__skills--sign">
-          <h3 className="skills-title">Skills</h3>
+      <div className="about-container__hobbies">
+        <div className="about-container__hobbies--sign">
+          <h3 className="hobbies-title">Hobbies</h3>
           <img
-            className="skills-arrow"
+            className="hobbies-arrow"
             src={Arrow}
-            alt="Flecha para indicar las skills"
+            alt="Flecha para indicar las hobbies"
           />
         </div>
-        <div className="about-container__skills--tecnologies">
-          <div className="skills-tecnologies-1">
-            <img className="logo" src={LogoReact} alt="Logo de react" />
-            <img className="logo" src={LogoJS} alt="Logo de JavaScript" />
-            <img className="logo" src={LogoHtml} alt="Logo de Html" />
-            <img className="logo" src={LogoCss} alt="Logo de Css" />
+        <div className="about-container__hobbies--favourites">
+          <div className="hobbies-favourites-1">
+            <img className="logo" src={Music} alt="Logo de react" />
+            <img className="logo" src={Cinema} alt="Logo de JavaScript" />
+            <img className="logo" src={Read} alt="Logo de Html" />
+            <img className="logo" src={Play} alt="Logo de Css" />
           </div>
-          <div className="skills-tecnologies-2">
-            <img className="logo" src={LogoSass} alt="Logo de Sass" />
-            <img className="logo" src={LogoGit} alt="Logo de Git" />
-            <img className="logo" src={LogoGulp} alt="Logo de Gulp" />
+          <div className="hobbies-favourites-2">
+            <img className="logo" src={Camera} alt="Logo de Sass" />
+            <img className="logo" src={Teacher} alt="Logo de Git" />
+            <img className="logo" src={Code} alt="Logo de Gulp" />
           </div>
         </div>
       </div>

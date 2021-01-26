@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 import "./App.scss";
-import Cover from "./components/cover/Cover";
-import Navbar from "./components/navbar/Navbar";
-import About from "./components/about/About";
-import Slider from "./components/slider/Slider";
-import Skills from "./components/skills/Skills";
-import Footer from "./components/footer/Footer";
+import Cover from "./cover/Cover";
+import Navbar from "./navbar/Navbar";
+import About from "./about/About";
+import Projects from "./projects/Projects";
+import Skills from "./skills/Skills";
+import Footer from "./footer/Footer";
+import PROJECTS_DATA from "../data/projects";
 
 function App() {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -21,16 +22,16 @@ function App() {
   }, [scrollHeight]);
 
   return (
-    <BrowserRouter>
-      <div className="App">
+    <div className="App">
+      <BrowserRouter>
         <Navbar isScrolling={scrollHeight} />
         <Cover />
         <About />
-        <Slider />
+        <Projects data={PROJECTS_DATA} />
         <Skills />
         <Footer />
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
+    </div>
   );
 }
 

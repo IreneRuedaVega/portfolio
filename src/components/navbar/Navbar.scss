@@ -32,61 +32,64 @@
       color: #9dedff;
     }
   }
-}
 
-.navbar__items {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  list-style: none;
-  cursor: pointer;
-
-  &__section {
-    margin-right: 32px;
-    .link {
-      text-decoration: none;
-      color: white;
-    }
-    .link:hover {
-      color: #9dedff;
-    }
-  }
-
-  @media all and (max-width: 768px) {
-    position: absolute;
+  &__items {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    background-color: #2a2a36;
-    width: 32%;
-    transition: 0.5s ease-in-out;
-    transform: translateX(-500px);
-    &__section {
-      margin: 32px 0 0 32px;
-      text-align: left;
-      font-size: 18px;
-      font-weight: 500;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    list-style: none;
+    cursor: pointer;
+
+    &--section {
+      margin-right: 32px;
+      display: flex;
+
+      .link {
+        text-decoration: none;
+        color: white;
+      }
+      .link:hover {
+        color: #9dedff;
+      }
     }
-    &__section:active {
-      color: #9dedff;
+
+    @media all and (max-width: 768px) {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      background-color: #2a2a36;
+      width: 32%;
+      transition: 0.5s ease-in-out;
+      transform: translateX(-500px);
+
+      &--section {
+        margin: 32px 0 0 32px;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 500;
+      }
+      &--section:active {
+        color: #9dedff;
+      }
     }
-  }
-  @media all and (max-width: 320px) {
-    width: 50%;
-    &__section {
-      margin: 32px 0 0 16px;
-      text-align: left;
-      font-size: 14px;
-      font-weight: 500;
-    }
-    &__section:active {
-      color: #9dedff;
+    @media all and (max-width: 320px) {
+      width: 50%;
+      &--section {
+        margin: 32px 0 0 16px;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      &--section:active {
+        color: #9dedff;
+      }
     }
   }
 }

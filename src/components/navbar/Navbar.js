@@ -20,23 +20,25 @@ const Navbar = ({ isScrolling }) => {
         className="navbar__items"
         style={{ transform: open ? "translateX(0px)" : "" }}
       >
-        <li className="navbar__items__section">
+        <li className="navbar__items--section">
           <HashLink to="#aboutMe" className="link">
             Sobre mi
           </HashLink>
         </li>
-        <li className="navbar__items__section">
+        <li className="navbar__items--section">
           <HashLink to="#projects" className="link">
             Mis proyectos
           </HashLink>
         </li>
-        <li className="navbar__items__section">
+        <li className="navbar__items--section">
           <HashLink to="#skills" className="link">
             Habilidades
           </HashLink>
         </li>
-        <li className="navbar__items__section">
-          <HashLink className="link">Contacto</HashLink>
+        <li className="navbar__items--section">
+          <HashLink to="#contact" className="link">
+            Contacto
+          </HashLink>
         </li>
       </ul>
       <i className="fas fa-bars burguer" onClick={() => setOpen(!open)}></i>
