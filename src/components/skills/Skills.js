@@ -10,7 +10,7 @@ const Skills = () => {
       <h2 className="skills-container__title">Habilidades</h2>
       <div className="skills-container__content">
         <WebDevContent
-          title="Desarrollo web"
+          title="Desarrollo"
           titleTechnologies="Tecnologías"
           item="JavaScript"
           item2="React"

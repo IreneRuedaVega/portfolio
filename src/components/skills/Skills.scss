@@ -51,7 +51,7 @@
   height: 335px;
 
   @media all and (min-width: 768px) {
-    margin: 32px;
+    margin: 32px 16px 0 16px; //32
     width: 305px;
   }
 

@@ -3,21 +3,21 @@ import Project from "./Project";
 import "./Projects.scss";
 
 const Projects = ({ data }) => {
-  console.log(data);
   return (
     <section className="projects-container" id="projects">
       <div className="projects-container__title">
         <h2 className="projects-container__title--h2">Mis proyectos</h2>
       </div>
       <div className="projects-container__wrapper">
-        {data.map(({ title, description, github, web, img, skills }) => (
+        {data.map(({ id, title, description, github, web, img, logos }) => (
           <Project
+            key={id}
             title={title}
             description={description}
-            githubLink={github}
-            webLink={web}
+            github={github}
+            web={web}
             img={img}
-            skills={skills}
+            logos={logos}
           />
         ))}
       </div>

@@ -22,7 +22,7 @@ const Navbar = ({ isScrolling }) => {
       >
         <li className="navbar__items--section">
           <HashLink to="#aboutMe" className="link">
-            Sobre mi
+            Sobre mí
           </HashLink>
         </li>
         <li className="navbar__items--section">
