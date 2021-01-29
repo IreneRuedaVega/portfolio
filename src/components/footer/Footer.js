@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__info">
-        <h1 className="footer__info--name">irene rueda vega</h1>
+        <h1 className="footer__info--name">trabajemos juntos</h1>
         <hr />
         <p className="footer__info--location">Madrid, España</p>
       </div>
