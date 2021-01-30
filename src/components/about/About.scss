@@ -15,7 +15,7 @@
   }
 
   &__photo {
-    margin: 64px 32px 32px 32px;
+    margin: 64px 32px 16px 32px; //32 abajo antes
     border: 2px solid black;
     display: flex;
     justify-content: center;
@@ -51,6 +51,7 @@
   &__desc {
     border: 2px solid black;
     margin: 0 32px 0 32px;
+
     @media all and (min-width: 768px) {
       order: 1;
       width: 706px;

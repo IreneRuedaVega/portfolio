@@ -1,7 +1,7 @@
 .skills-container {
   width: 100%;
   background-color: white;
-  height: 1647px;
+  height: 1583px;
   margin-bottom: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@
     width: 180px;
     text-align: center;
     padding: 12px;
-    margin-top: 64px;
+    margin: 64px 0 16px 0;
     background-color: #8787ff;
     border: 2px solid #333333;
     display: flex;
@@ -47,11 +47,11 @@
 .skillscontent-container {
   border: 2px solid #333333;
   width: 260px;
-  margin-top: 32px;
+  margin-top: 16px;
   height: 335px;
 
   @media all and (min-width: 768px) {
-    margin: 32px 16px 0 16px; //32
+    margin: 32px 16px 0 16px;
     width: 305px;
   }
 
