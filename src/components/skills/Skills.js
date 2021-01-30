@@ -1,8 +1,9 @@
 import React from "react";
 import "./Skills.scss";
-import WebDevContent from "./WebDevContent";
-import LayoutContent from "./LayoutContent";
-import TeamworkContent from "./TeamworkContent";
+import WebDevContent from "./sections/WebDevContent";
+import LayoutContent from "./sections/LayoutContent";
+import TeamworkContent from "./sections/TeamworkContent";
+import Learning from "./learning/Learning";
 
 const Skills = () => {
   return (
@@ -45,6 +46,7 @@ const Skills = () => {
           tool4="Slack"
         />
       </div>
+      <Learning />
     </div>
   );
 };

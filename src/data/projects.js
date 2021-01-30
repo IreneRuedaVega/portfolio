@@ -28,6 +28,9 @@ const PROJECTS_DATA = [
       LogoGulp: LogoGulp,
       LogoGit: LogoGit,
     },
+    alt: {
+      AltLogoReact: "Logo React",
+    },
   },
   {
     id: "2",
@@ -45,6 +48,9 @@ const PROJECTS_DATA = [
       LogoJS: LogoJS,
       LogoGulp: LogoGulp,
       LogoGit: LogoGit,
+    },
+    alt: {
+      AltLogoReact: "Logo React",
     },
   },
   {
@@ -65,6 +71,9 @@ const PROJECTS_DATA = [
       LogoGulp: LogoGulp,
       LogoGit: LogoGit,
     },
+    alt: {
+      AltLogoReact: "Logo React",
+    },
   },
   {
     id: "4",
@@ -84,6 +93,9 @@ const PROJECTS_DATA = [
       LogoGulp: LogoGulp,
       LogoGit: LogoGit,
     },
+    alt: {
+      AltLogoReact: "Logo React",
+    },
   },
   {
     id: "5",
@@ -100,6 +112,9 @@ const PROJECTS_DATA = [
       LogoReact: LogoReact,
       LogoGulp: LogoGulp,
       LogoGit: LogoGit,
+    },
+    alt: {
+      AltLogoReact: "Logo React",
     },
   },
   {
@@ -118,6 +133,9 @@ const PROJECTS_DATA = [
       LogoReact: LogoReact,
       LogoGulp: LogoGulp,
       LogoGit: LogoGit,
+    },
+    alt: {
+      AltLogoReact: "Logo React",
     },
   },
 ];

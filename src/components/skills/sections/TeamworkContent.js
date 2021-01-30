@@ -1,16 +1,16 @@
 import React from "react";
-import "./Skills.scss";
+import "../Skills.scss";
 
-const WebDevContent = ({
+const TeamworkContent = ({
   title,
   titleTechnologies,
   item,
   item2,
-  item3,
-  item4,
-  item5,
   titleTools,
   tool,
+  tool2,
+  tool3,
+  tool4,
 }) => {
   return (
     <div className="skillscontent-container">
@@ -23,9 +23,6 @@ const WebDevContent = ({
         <ul className="skillscontent-container__technologies--list">
           <li className="item">{item}</li>
           <li className="item">{item2}</li>
-          <li className="item">{item3}</li>
-          <li className="item">{item4}</li>
-          <li className="item">{item5}</li>
         </ul>
       </div>
       <div className="skillscontent-container__tools">
@@ -33,10 +30,13 @@ const WebDevContent = ({
         <hr />
         <ul className="skillscontent-container__tools--list">
           <li className="item">{tool}</li>
+          <li className="item">{tool2}</li>
+          <li className="item">{tool3}</li>
+          <li className="item">{tool4}</li>
         </ul>
       </div>
     </div>
   );
 };
 
-export default WebDevContent;
+export default TeamworkContent;

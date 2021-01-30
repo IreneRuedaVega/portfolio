@@ -31,7 +31,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 24px;
-    padding-bottom: 48px;
+    padding-bottom: 32px;
 
     @media all and (min-width: 768px) {
       flex-direction: row;
@@ -42,6 +42,29 @@
     @media all and (min-width: 1200px) {
       max-width: 1152px;
       margin: 0 auto;
+    }
+  }
+  &__more-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 64px;
+
+    &--github-logo {
+      width: 20px;
+      margin-right: 8px;
+    }
+    &--text {
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    &--text:hover {
+      border-bottom: 2px solid white;
     }
   }
 }

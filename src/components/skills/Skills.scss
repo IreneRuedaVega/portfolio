@@ -1,7 +1,7 @@
 .skills-container {
   width: 100%;
   background-color: white;
-  height: 1300px;
+  height: 1647px;
   margin-bottom: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,11 +10,11 @@
   font-family: "Montserrat", sans-serif;
 
   @media all and (min-width: 768px) {
-    height: 950px;
+    height: 1097px;
   }
 
   @media all and (min-width: 1280px) {
-    height: 550px;
+    height: 730px;
   }
 
   &__title {

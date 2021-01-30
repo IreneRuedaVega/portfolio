@@ -8,14 +8,13 @@ import webHover from "../../media/web_hover.svg";
 import flipRight from "../../media/flipDerecha.svg";
 import flipRightHover from "../../media/flipDerecha_blanco.svg";
 
-const Project = ({ img, title, description, github, web, logos }) => {
+const Project = ({ img, title, description, github, web, logos, alt }) => {
+  console.log(alt);
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleClick = () => {
     setIsFlipped(!isFlipped);
   };
-
-  /*   const jslogo = logos.LogoJS === "LogoJS" ? LogoJS : null (style{display:none}); */
 
   return (
     <article>
@@ -130,14 +129,10 @@ const Project = ({ img, title, description, github, web, logos }) => {
               alt="Logo de Sass"
               className="technologies__logo"
             />
-            <img
-              src={logos.LogoJS}
-              alt="Logo de JavaScript"
-              className="technologies__logo"
-            />
+            <img src={logos.LogoJS} alt="" className="technologies__logo" />
             <img
               src={logos.LogoReact}
-              alt="Logo de React"
+              alt={alt.AltLogoReact || "Hola"}
               className="technologies__logo"
             />
             <img
