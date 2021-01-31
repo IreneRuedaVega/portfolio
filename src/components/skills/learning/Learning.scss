@@ -31,9 +31,9 @@
 
 .title {
   &__line {
-    border-color: #cc6699;
-    background-color: #cc6699;
     margin-top: 8px;
+    border: 1px solid #cc6699;
+    width: 64px;
   }
 }
 

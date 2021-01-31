@@ -1,13 +1,22 @@
 import React from "react";
 import "./Footer.scss";
+import imageFooter from "../../media/ireneFooter.svg";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__info">
+        <img
+          className="footer__info--img"
+          src={imageFooter}
+          alt="Dibujo de Irene"
+        />
         <h1 className="footer__info--name">trabajemos juntos</h1>
-        <hr />
-        <p className="footer__info--location">Madrid, España</p>
+        <hr className="footer__info--separation" />
+        <p className="footer__info--location">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam quis
+          culpa laboriosam distinctio mollitia tenetur, ratione ab repellendus.
+        </p>
       </div>
       <div className="footer__contact">
         <div className="footer__contact--design-by">

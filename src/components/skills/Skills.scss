@@ -21,7 +21,7 @@
     width: 180px;
     text-align: center;
     padding: 12px;
-    margin: 64px 0 16px 0;
+    margin-top: 64px;
     background-color: #8787ff;
     border: 2px solid #333333;
     display: flex;
@@ -118,6 +118,12 @@
   }
 }
 
-hr {
+.skillscontent-container__technologies--line {
   border: 1px solid #8787ff;
+  width: 64px;
+}
+
+.skillscontent-container__tools--line {
+  border: 1px solid #8787ff;
+  width: 64px;
 }
