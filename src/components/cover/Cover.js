@@ -35,8 +35,12 @@ const Cover = () => {
           }}
         />
       </div>
-
-      {/*  <button className="cover-container__scroll"></button> */}
+      <a
+        href="#aboutMe"
+        title="Ir a la sección 'Sobre mi'"
+        className="cover-container__scroll"
+      ></a>
+      <span className="box" id="aboutMe"></span>
     </div>
   );
 };

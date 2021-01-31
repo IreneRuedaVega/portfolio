@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body::-webkit-scrollbar-track {
   border: 1px solid rgb(42, 42, 54);
   background-color: rgb(42, 42, 54);
@@ -15,8 +19,5 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  /* background-color: rgb(135, 135, 255); */
   background-color: #8787ff;
 }
-
-/* rgb(42,42,54) rgb(135,135,255) RGB(255,123,155)*/

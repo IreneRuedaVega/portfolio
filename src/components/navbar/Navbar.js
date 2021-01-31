@@ -7,6 +7,13 @@ const Navbar = ({ isScrolling }) => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
 
+  const scrollToBottom = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+  };
+
   const [open, setOpen] = useState(false);
 
   return (
@@ -36,7 +43,7 @@ const Navbar = ({ isScrolling }) => {
           </HashLink>
         </li>
         <li className="navbar__items--section">
-          <HashLink to="#contact" className="link">
+          <HashLink to="#contact" className="link" onClick={scrollToBottom}>
             Contacto
           </HashLink>
         </li>

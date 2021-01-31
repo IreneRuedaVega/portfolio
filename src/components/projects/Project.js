@@ -8,8 +8,7 @@ import webHover from "../../media/web_hover.svg";
 import flipRight from "../../media/flipDerecha.svg";
 import flipRightHover from "../../media/flipDerecha_blanco.svg";
 
-const Project = ({ img, title, description, github, web, logos, alt }) => {
-  console.log(alt);
+const Project = ({ img, title, description, github, web, icons }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleClick = () => {
@@ -114,37 +113,7 @@ const Project = ({ img, title, description, github, web, logos, alt }) => {
           <h3 className="project__card-title">{title}</h3>
           <p className="project__card-description">{description}</p>
           <div className="project__card-technologies technologies">
-            <img
-              src={logos.LogoHtml}
-              alt="Logo de Html5"
-              className="technologies__logo"
-            />
-            <img
-              src={logos.LogoCss3}
-              alt="Logo de Css3"
-              className="technologies__logo"
-            />
-            <img
-              src={logos.LogoSass}
-              alt="Logo de Sass"
-              className="technologies__logo"
-            />
-            <img src={logos.LogoJS} alt="" className="technologies__logo" />
-            <img
-              src={logos.LogoReact}
-              alt={alt.AltLogoReact || "Hola"}
-              className="technologies__logo"
-            />
-            <img
-              src={logos.LogoGulp}
-              alt="Logo de Gulp"
-              className="technologies__logo"
-            />
-            <img
-              src={logos.LogoGit}
-              alt="Logo de Git"
-              className="technologies__logo"
-            />
+            <img src={icons} alt="" />
           </div>
         </div>
       </ReactCardFlip>
