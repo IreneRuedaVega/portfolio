@@ -1,3 +1,6 @@
+@import "../core/Variables.scss";
+@import "../core/Mixins.scss";
+
 .cover-container {
   height: 100vh;
   width: 100%;
@@ -6,6 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   &__video {
     object-fit: cover;
     width: 100%;
@@ -15,38 +19,37 @@
   }
 
   &__name {
-    color: white;
+    color: $color-tertiary;
     font-size: 30px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
+    font-family: $font-family;
+    font-weight: $font-weight-heavy;
     text-align: center;
 
-    @media all and (min-width: 768px) {
+    @include tablet {
       font-size: 60px;
     }
 
-    @media all and (min-width: 1280px) {
+    @include desktop {
       font-size: 96px;
     }
   }
 
-  &__job {
-    color: white;
-    font-family: "Montserrat", sans-serif;
+  &__jobs {
+    color: $color-tertiary;
+    font-family: $font-family;
     font-weight: 600;
-    margin-top: 8px;
     font-size: 11.5px;
     text-align: center;
     margin-top: 16px;
-    border: 2px solid white;
+    border: 2px solid $color-tertiary;
     padding: 5px 16px 5px 16px;
     font-style: italic;
 
-    @media all and (min-width: 768px) {
+    @include tablet {
       font-size: 23px;
     }
 
-    @media all and (min-width: 1280px) {
+    @include desktop {
       font-size: 28px;
       width: 543px;
     }
@@ -65,7 +68,9 @@
     border: transparent;
     outline: none;
     scroll-behavior: auto;
-    @media all and (min-width: 1200px) {
+    color: transparent;
+
+    @include desktop {
       background-image: url(../../media/scrollMouse.svg);
       height: 62px;
       width: 32px;

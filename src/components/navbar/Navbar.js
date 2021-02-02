@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
-import "./Navbar.scss";
+import "../../stylesheets/layout/Navbar.scss";
 
 const Navbar = ({ isScrolling }) => {
+  //scroll to the top
   const tothetop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
-
+  //scroll to the bottom
   const scrollToBottom = () => {
     window.scrollTo({
       top: document.documentElement.scrollHeight,
@@ -25,30 +26,39 @@ const Navbar = ({ isScrolling }) => {
       </div>
       <ul
         className="navbar__items"
-        style={{ transform: open ? "translateX(0px)" : "" }}
+        style={{
+          transform: open ? "translateX(0px)" : "",
+        }}
       >
-        <li className="navbar__items--section">
-          <HashLink to="#aboutMe" className="link">
+        <li className="navbar__items--section connections">
+          <HashLink to="#aboutMe" className="connections__link">
             Sobre mí
           </HashLink>
         </li>
-        <li className="navbar__items--section">
-          <HashLink to="#projects" className="link">
+        <li className="navbar__items--section connections">
+          <HashLink to="#projects" className="connections__link">
             Mis proyectos
           </HashLink>
         </li>
-        <li className="navbar__items--section">
-          <HashLink to="#skills" className="link">
+        <li className="navbar__items--section connections">
+          <HashLink to="#skills" className="connections__link">
             Habilidades
           </HashLink>
         </li>
-        <li className="navbar__items--section">
-          <HashLink to="#contact" className="link" onClick={scrollToBottom}>
+        <li className="navbar__items--section connections">
+          <HashLink
+            to="#contact"
+            className="connections__link"
+            onClick={scrollToBottom}
+          >
             Contacto
           </HashLink>
         </li>
       </ul>
-      <i className="fas fa-bars burguer" onClick={() => setOpen(!open)}></i>
+      <i
+        className="fas fa-bars navbar__items--burger-nav"
+        onClick={() => setOpen(!open)}
+      ></i>
     </nav>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Cover.scss";
+import "../../stylesheets/layout/Cover.scss";
 import coverVideo from "../../media/coverVideo.mp4";
 import Typewriter from "typewriter-effect";
 
@@ -14,7 +14,7 @@ const Cover = () => {
         muted
       />
       <h1 className="cover-container__name">¡Hola! Soy Irene.</h1>
-      <div className="cover-container__job">
+      <div className="cover-container__jobs">
         <Typewriter
           options={{
             autoStart: true,
@@ -39,7 +39,9 @@ const Cover = () => {
         href="#aboutMe"
         title="Ir a la sección 'Sobre mi'"
         className="cover-container__scroll"
-      ></a>
+      >
+        Ir a la siguiente sección
+      </a>
       <span className="box" id="aboutMe"></span>
     </div>
   );

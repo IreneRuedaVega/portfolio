@@ -14,10 +14,8 @@ const PROJECTS_DATA = [
     title: "Rick and Morty finder",
     img: rickMorty,
     description: "Buscador de personajes de Rick and Morty.",
-    github:
-      "https://github.com/IreneRuedaVega/modulo-3-evaluacion-final-IreneRuedaVega",
-    web:
-      "https://ireneruedavega.github.io/modulo-3-evaluacion-final-IreneRuedaVega/#/",
+    github: "https://github.com/IreneRuedaVega/rick-and-morty-finder",
+    web: "https://ireneruedavega.github.io/rick-and-morty-finder/#/",
     icons: iconsProject03,
   },
 
@@ -27,8 +25,8 @@ const PROJECTS_DATA = [
     img: insideMood,
     description:
       "Aplicación web para registrar el estado de ánimo de los usuarios",
-    github: "https://github.com/IreneRuedaVega/mood-calendar",
-    web: "https://ireneruedavega.github.io/mood-calendar/#/",
+    github: "https://github.com/IreneRuedaVega/inside-mood-calendar",
+    web: "https://ireneruedavega.github.io/inside-mood-calendar/#/",
     icons: iconsProject03,
   },
 
@@ -38,10 +36,8 @@ const PROJECTS_DATA = [
     img: likeWatch,
     description:
       "Like.watch es una aplicación web, que mediante la API de TV Maze, permite al usuario buscar series y crear una lista de sus favoritas.",
-    github:
-      "https://github.com/IreneRuedaVega/modulo-2-evaluacion-final-IreneRuedaVega",
-    web:
-      "https://ireneruedavega.github.io/modulo-2-evaluacion-final-IreneRuedaVega/",
+    github: "https://github.com/IreneRuedaVega/like.watch",
+    web: "https://ireneruedavega.github.io/like.watch/",
     icons: iconsProject02,
   },
 
@@ -60,10 +56,8 @@ const PROJECTS_DATA = [
     title: "Adivina el número",
     img: adivina,
     description: "Juego que consiste en adivinar el número correcto.",
-    github:
-      "https://github.com/IreneRuedaVega/modulo-2-evaluacion-intermedia-IreneRuedaVega",
-    web:
-      "https://ireneruedavega.github.io/modulo-2-evaluacion-intermedia-IreneRuedaVega/",
+    github: "https://github.com/IreneRuedaVega/adivina-el-numero",
+    web: "https://ireneruedavega.github.io/adivina-el-numero/",
     icons: iconsProject02,
   },
 
@@ -73,8 +67,8 @@ const PROJECTS_DATA = [
     img: baila,
     description:
       "B.A.I.L.A es una web responsive con presentación y datos de contacto. Desarrollo grupal.",
-    github: "https://github.com/Adalab/project-promo-k-module-1-team-2",
-    web: "https://beta.adalab.es/project-promo-k-module-1-team-2/",
+    github: "https://github.com/IreneRuedaVega/B.A.I.L.A",
+    web: "https://ireneruedavega.github.io/B.A.I.L.A/",
     icons: iconsProject01,
   },
 ];

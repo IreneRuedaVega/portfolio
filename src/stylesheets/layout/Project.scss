@@ -1,0 +1,144 @@
+@import "../core/Variables.scss";
+@import "../core/Mixins.scss";
+
+.project {
+  width: 276px;
+  height: 351px;
+  border: 2px solid $color-dark;
+  margin-bottom: 16px;
+  background-color: $color-tertiary;
+
+  @include tablet {
+    margin: 0 8px 16px 8px;
+  }
+
+  &__card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+
+    &--web,
+    &--github {
+      border: 2px solid $color-dark;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .web {
+        &__logo {
+          position: absolute;
+        }
+      }
+
+      .github {
+        &__logo {
+          position: absolute;
+        }
+      }
+    }
+
+    &--web:hover,
+    &--github:hover {
+      background-color: $color-primary;
+      .web {
+        &__logo {
+          opacity: 0;
+          position: absolute;
+        }
+        &__hover {
+          position: relative;
+        }
+      }
+      .github {
+        &__logo {
+          opacity: 0;
+          position: absolute;
+        }
+        &__hover {
+          position: relative;
+        }
+      }
+    }
+
+    &--btn {
+      width: 148px;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      color: $color-dark;
+      font-family: $font-family;
+      border: 2px solid $color-dark;
+      background-color: $color-tertiary;
+      font-size: 20px;
+      font-weight: $font-weight-medium;
+      outline: none;
+
+      .arrow {
+        &__span {
+          margin-left: 8px;
+        }
+        &__right {
+          position: relative;
+          margin-right: 8px;
+        }
+        &__left {
+          position: relative;
+        }
+      }
+    }
+
+    &--btn:hover {
+      color: $color-tertiary;
+      background-color: $color-primary;
+
+      .arrow {
+        &__right {
+          display: none;
+        }
+        &__left {
+          position: relative;
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+  &__card-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: $color-dark;
+    font-family: $font-family;
+    border-top: 2px solid $color-dark;
+    padding: 16px 0 0 16px;
+  }
+
+  &__card-img {
+    margin: 14px;
+    border: 2px solid $color-dark;
+    width: 244px;
+    height: 209px;
+  }
+
+  &__card-description {
+    color: $color-dark;
+    font-family: $font-family;
+    margin: 8px 16px 0 16px;
+    text-align: left;
+    height: 168px;
+    border-bottom: 2px solid $color-dark;
+  }
+
+  &__card-technologies {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 16px 16px;
+  }
+}

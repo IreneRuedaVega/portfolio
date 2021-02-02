@@ -1,8 +1,8 @@
 import React from "react";
-import "./Footer.scss";
+import "../../stylesheets/layout/Footer.scss";
 import imageFooter from "../../media/ireneFooter.svg";
 
-const Footer = () => {
+const Contact = () => {
   return (
     <footer className="footer">
       <div className="footer__info">
@@ -11,62 +11,63 @@ const Footer = () => {
           src={imageFooter}
           alt="Dibujo de Irene"
         />
-        <h1 className="footer__info--name">trabajemos juntos</h1>
+        <h1 className="footer__info--title">trabajemos juntos</h1>
         <hr className="footer__info--separation" />
-        <p className="footer__info--location">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam quis
-          culpa laboriosam distinctio mollitia tenetur, ratione ab repellendus.
+        <p className="footer__info--text">
+          Quiero seguir aprendiendo y creciendo profesionalmente. Si estás
+          interesado/a en un perfil de desarrolladora front-end junior creativa
+          y con muchas ganas de aprender, contacta conmigo.
         </p>
       </div>
       <div className="footer__contact">
         <div className="footer__contact--design-by">
           Design &#64; Javier Santos &#124; Irene Rueda
         </div>
-        <div className="footer__contact--links">
+        <div className="footer__contact--links social">
           <a
-            className="links"
+            className="social__links"
             href="https://twitter.com/Irenelandia_"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fab fa-twitter twitter"></i>
-            <div className="liquid"></div>
+            <i className="fab fa-twitter social__links--twitter"></i>
+            <div className="social__links--liquid"></div>
           </a>
           <a
-            className="links"
+            className="social__links"
             href="https://github.com/IreneRuedaVega"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fab fa-github github"></i>
-            <div className="liquid"></div>
+            <i className="fab fa-github social__links--github"></i>
+            <div className="social__links--liquid"></div>
           </a>
           <a
-            className="links"
+            className="social__links"
             href="//linkedin.com/in/ireneruedavega"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fab fa-linkedin linkedin"></i>
-            <div className="liquid"></div>
+            <i className="fab fa-linkedin social__links--linkedin"></i>
+            <div className="social__links--liquid"></div>
           </a>
           <a
-            className="links"
+            className="social__links"
             href="mailto:ruedavegairene@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fas fab2 fa-envelope mail"></i>
-            <div className="liquid"></div>
+            <i className="fas fab2 fa-envelope social__links--mail"></i>
+            <div className="social__links--liquid"></div>
           </a>
           <a
-            className="links"
+            className="social__links"
             href="https://codepen.io/ruedavegairene"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fab fa-codepen codepen"></i>
-            <div className="liquid"></div>
+            <i className="fab fa-codepen social__links--codepen"></i>
+            <div className="social__links--liquid"></div>
           </a>
         </div>
       </div>
@@ -74,4 +75,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Contact;

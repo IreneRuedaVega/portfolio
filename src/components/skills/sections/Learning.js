@@ -1,5 +1,5 @@
 import React from "react";
-import "./Learning.scss";
+import "../../../stylesheets/layout/Learning.scss";
 
 const Learning = () => {
   return (
@@ -21,7 +21,7 @@ const Learning = () => {
         </div>
         <ul className="section-learning__new-knowledge--knowledge-list knowledge-list">
           <li className="knowledge-list__item">Angular + React Native</li>
-          <li className="knowledge-list__item">PHP + Wordpress</li>
+          <li className="knowledge-list__item">PHP + Swift + Firebase</li>
         </ul>
       </div>
     </div>

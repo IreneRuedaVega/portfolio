@@ -1,9 +1,9 @@
 import React from "react";
-import "./Skills.scss";
+import "../../stylesheets/layout/Skills.scss";
 import WebDevContent from "./sections/WebDevContent";
 import LayoutContent from "./sections/LayoutContent";
 import TeamworkContent from "./sections/TeamworkContent";
-import Learning from "./learning/Learning";
+import Learning from "./sections/Learning";
 
 const Skills = () => {
   return (
