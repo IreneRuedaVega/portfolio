@@ -13,7 +13,8 @@ const PROJECTS_DATA = [
     id: "1",
     title: "Rick and Morty finder",
     img: rickMorty,
-    description: "Buscador de personajes de Rick and Morty.",
+    description:
+      "Aplicación web que permite buscar personajes de Rick and Morty. Podemos buscarlos a través de su nombre, género, especie o estado y ordenarlos alfabéticamente.",
     github: "https://github.com/IreneRuedaVega/rick-and-morty-finder",
     web: "https://ireneruedavega.github.io/rick-and-morty-finder/#/",
     icons: iconsProject03,
@@ -24,7 +25,7 @@ const PROJECTS_DATA = [
     title: "Inside Mood",
     img: insideMood,
     description:
-      "Aplicación web para registrar el estado de ánimo de los usuarios",
+      "Aplicación web que permite hacer un registro diario del estado de ánimo de los usuarios.",
     github: "https://github.com/IreneRuedaVega/inside-mood-calendar",
     web: "https://ireneruedavega.github.io/inside-mood-calendar/#/",
     icons: iconsProject03,
@@ -35,7 +36,7 @@ const PROJECTS_DATA = [
     title: "Like.watch",
     img: likeWatch,
     description:
-      "Like.watch es una aplicación web, que mediante la API de TV Maze, permite al usuario buscar series y crear una lista de sus favoritas.",
+      "Aplicación web, que mediante la API de TV Maze, permite al usuario buscar series y crear una lista de favoritas y guardar en el local storage.",
     github: "https://github.com/IreneRuedaVega/like.watch",
     web: "https://ireneruedavega.github.io/like.watch/",
     icons: iconsProject02,
@@ -45,7 +46,8 @@ const PROJECTS_DATA = [
     id: "4",
     title: "DrumsKit",
     img: drums,
-    description: "Aplicación para hacer música",
+    description:
+      "Aplicación web que permite al usuario hacer música mediante distintos sonidos de bateria manejados a través del teclado o el ratón.",
     github: "https://github.com/IreneRuedaVega/drum-kit",
     web: "https://ireneruedavega.github.io/drum-kit/",
     icons: iconsProject02,
@@ -55,7 +57,8 @@ const PROJECTS_DATA = [
     id: "5",
     title: "Adivina el número",
     img: adivina,
-    description: "Juego que consiste en adivinar el número correcto.",
+    description:
+      "Juego que consiste en adivinar el número secreto. El juego te da pistas de si el número que estás adivinando es mayor o menor para llegar al correcto.",
     github: "https://github.com/IreneRuedaVega/adivina-el-numero",
     web: "https://ireneruedavega.github.io/adivina-el-numero/",
     icons: iconsProject02,
@@ -66,7 +69,7 @@ const PROJECTS_DATA = [
     title: "B.A.I.L.A",
     img: baila,
     description:
-      "B.A.I.L.A es una web responsive con presentación y datos de contacto. Desarrollo grupal.",
+      "Web responsive colaborativa que cuenta con la presentación, descripción y datos de contacto del equipo y un formulario de contacto.",
     github: "https://github.com/IreneRuedaVega/B.A.I.L.A",
     web: "https://ireneruedavega.github.io/B.A.I.L.A/",
     icons: iconsProject01,
