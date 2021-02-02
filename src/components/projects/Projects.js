@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "./Project";
-import "../../stylesheets/layout/Projects.scss";
+import "../../stylesheets/layout/projects.scss";
 import GithubHover from "../../media/github_hover.svg";
 
 const Projects = ({ data }) => {

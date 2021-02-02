@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../stylesheets/layout/SkillsContent.scss";
+import "../../../stylesheets/layout/skillsContent.scss";
 
 const TeamworkContent = ({
   title,

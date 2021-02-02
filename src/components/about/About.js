@@ -1,5 +1,5 @@
 import React from "react";
-import "../../stylesheets/layout/About.scss";
+import "../../stylesheets/layout/about.scss";
 import Photo from "../../media/avatarPortfolio.png";
 import Arrow from "../../media/arrow.svg";
 import Music from "../../media/musica.svg";

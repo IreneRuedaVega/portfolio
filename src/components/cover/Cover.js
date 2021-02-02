@@ -1,5 +1,5 @@
 import React from "react";
-import "../../stylesheets/layout/Cover.scss";
+import "../../stylesheets/layout/cover.scss";
 import coverVideo from "../../media/coverVideo.mp4";
 import Typewriter from "typewriter-effect";
 

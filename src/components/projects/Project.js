@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactCardFlip from "react-card-flip";
-import "../../stylesheets/layout/Project.scss";
+import "../../stylesheets/layout/project.scss";
 import gitHubLogo from "../../media/gitHub.svg";
 import gitHubHover from "../../media/github_hover.svg";
 import webLogo from "../../media/web.svg";

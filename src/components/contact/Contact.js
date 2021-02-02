@@ -1,5 +1,5 @@
 import React from "react";
-import "../../stylesheets/layout/Contact.scss";
+import "../../stylesheets/layout/contact.scss";
 import imageFooter from "../../media/ireneFooter.svg";
 import cv from "../../documents/CV-Irene-Rueda-Vega.pdf";
 
