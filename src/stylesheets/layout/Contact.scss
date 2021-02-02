@@ -55,8 +55,8 @@
 
     &--text {
       font-size: 12px;
-      margin-top: 8px;
       font-weight: 400;
+      margin: 8px 0 32px 0;
 
       @include tablet {
         font-size: 20px;
@@ -65,6 +65,28 @@
       @include desktop {
         font-size: 26px;
         margin-top: 12px;
+      }
+    }
+
+    &--cv {
+      font-size: 12px;
+      padding: 8px;
+      border: 1px solid $color-tertiary;
+
+      @include tablet {
+        font-size: 16px;
+      }
+
+      @include desktop {
+        font-size: 20px;
+        margin-top: 12px;
+      }
+
+      .cv {
+        &__link {
+          color: $color-tertiary;
+          text-decoration: none;
+        }
       }
     }
   }

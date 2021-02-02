@@ -1,6 +1,7 @@
 import React from "react";
-import "../../stylesheets/layout/Footer.scss";
+import "../../stylesheets/layout/Contact.scss";
 import imageFooter from "../../media/ireneFooter.svg";
+import cv from "../../documents/CV-Irene-Rueda-Vega.pdf";
 
 const Contact = () => {
   return (
@@ -18,6 +19,17 @@ const Contact = () => {
           interesado/a en un perfil de desarrolladora front-end junior creativa
           y con muchas ganas de aprender, contacta conmigo.
         </p>
+        <span className="footer__info--cv cv">
+          <a
+            href={cv}
+            className="cv__link"
+            target="_blank"
+            rel="noreferrer noopener"
+            download
+          >
+            Descargar CV
+          </a>
+        </span>
       </div>
       <div className="footer__contact">
         <div className="footer__contact--design-by">
