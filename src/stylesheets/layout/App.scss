@@ -1,5 +1,6 @@
 @import "../core/reset.scss";
 @import "../core/variables.scss";
+@import "../core/mixins.scss";
 
 html {
   scroll-behavior: smooth;
@@ -17,4 +18,19 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
   background-color: $color-primary;
+}
+
+.loading {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 75%;
+
+  @include tablet {
+    margin-top: 35%;
+  }
+
+  @include desktop {
+    margin-top: 25%;
+  }
 }
