@@ -1,7 +1,7 @@
 import React from "react";
 import "../../../stylesheets/layout/skillsContent.scss";
 
-const TeamworkContent = ({
+const TeamWorkContent = ({
   title,
   titleTechnologies,
   item,
@@ -39,4 +39,4 @@ const TeamworkContent = ({
   );
 };
 
-export default TeamworkContent;
+export default TeamWorkContent;
