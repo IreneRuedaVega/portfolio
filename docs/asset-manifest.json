@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.e58ca897.chunk.css",
-    "main.js": "./static/js/main.202f248b.chunk.js",
-    "main.js.map": "./static/js/main.202f248b.chunk.js.map",
+    "main.js": "./static/js/main.0b4c90fb.chunk.js",
+    "main.js.map": "./static/js/main.0b4c90fb.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.d16a0d90.js",
     "runtime-main.js.map": "./static/js/runtime-main.d16a0d90.js.map",
     "static/js/2.1545664e.chunk.js": "./static/js/2.1545664e.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "./index.html",
     "static/css/main.e58ca897.chunk.css.map": "./static/css/main.e58ca897.chunk.css.map",
     "static/js/2.1545664e.chunk.js.LICENSE.txt": "./static/js/2.1545664e.chunk.js.LICENSE.txt",
-    "static/media/CV-Irene-Rueda-Vega.0fdbe86d.pdf": "./static/media/CV-Irene-Rueda-Vega.0fdbe86d.pdf",
+    "static/media/CV-Irene-Rueda-Vega.61cedec5.pdf": "./static/media/CV-Irene-Rueda-Vega.61cedec5.pdf",
     "static/media/arrow.1b2fa0a4.svg": "./static/media/arrow.1b2fa0a4.svg",
     "static/media/avatarPortfolio.99058d36.png": "./static/media/avatarPortfolio.99058d36.png",
     "static/media/baila.b0e81f96.png": "./static/media/baila.b0e81f96.png",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.d16a0d90.js",
     "static/js/2.1545664e.chunk.js",
     "static/css/main.e58ca897.chunk.css",
-    "static/js/main.202f248b.chunk.js"
+    "static/js/main.0b4c90fb.chunk.js"
   ]
 }
