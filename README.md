@@ -2,8 +2,6 @@
 
 Este portfolio es una web responsive desarrollada con la finalidad de recopilar proyectos realizados.
 
-![Irene Rueda Vega Portfolio](fondoReadme.png)
-
 ### ¿Cuál es la estructura del proyecto?
 
 ```
