@@ -2,7 +2,7 @@ import React from "react";
 import "../../stylesheets/layout/skills.scss";
 import WebDevContent from "./sections/WebDevContent";
 import LayoutContent from "./sections/LayoutContent";
-import TeamworkContent from "./sections/TeamworkContent";
+import TeamWorkContent from "./sections/TeamWorkContent";
 import Learning from "./sections/Learning";
 
 const Skills = () => {
@@ -34,7 +34,7 @@ const Skills = () => {
           tool="Zeplin"
           tool2="Figma"
         />
-        <TeamworkContent
+        <TeamWorkContent
           title="Trabajo en equipo"
           titleTechnologies="Metodologias ágiles"
           item="Agile"
