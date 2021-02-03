@@ -38,12 +38,12 @@ const About = () => {
             especializada en TIC.
           </p>
           <p className="about-container__desc--irene">
-            Como maestra y como creadora de contenido educativo digital he
-            podido conocer de primera mano la importancia tanto de la educación
-            como de la tecnología. Siendo profesora de robótica comenzó mi
-            interés por la programación, lo que me llevó a formarme en el
-            desarrollo front-end. La posibilidad de crear contenidos digitales y
-            darles vida es lo que me atrapó de esta profesión.
+            Como maestra y creadora de contenido educativo digital he podido
+            conocer de primera mano la importancia tanto de la educación como de
+            la tecnología. Siendo profesora de robótica comenzó mi interés por
+            la programación, lo que me llevó a formarme en el desarrollo
+            front-end. La posibilidad de crear contenidos digitales y darles
+            vida es lo que me atrapó de esta profesión.
           </p>
           <p className="about-container__desc--hobbies">
             La superación, la adaptación y la perseverancia me llevan a afrontar

@@ -21,7 +21,7 @@ const Learning = () => {
         </div>
         <ul className="section-learning__new-knowledge--knowledge-list knowledge-list">
           <li className="knowledge-list__item">Angular + React Native</li>
-          <li className="knowledge-list__item">PHP + Swift + Firebase</li>
+          <li className="knowledge-list__item">TypeScript + Swift</li>
         </ul>
       </div>
     </div>
