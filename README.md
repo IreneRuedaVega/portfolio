@@ -2,6 +2,8 @@
 
 Este portfolio es una web responsive desarrollada con la finalidad de recopilar proyectos realizados.
 
+![mockupReadme01](https://user-images.githubusercontent.com/64804110/106810384-27cac280-666d-11eb-91f5-d2ca87453589.png)
+
 ### ¿Cuál es la estructura del proyecto?
 
 ```
