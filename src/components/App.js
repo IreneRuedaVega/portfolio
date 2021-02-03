@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
-import "../stylesheets/layout/App.scss";
 import Cover from "./cover/Cover";
 import Navbar from "./navbar/Navbar";
 import About from "./about/About";
