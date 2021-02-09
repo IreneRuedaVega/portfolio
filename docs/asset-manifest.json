@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.b8bbbd9d.chunk.css",
-    "main.js": "./static/js/main.85f567c5.chunk.js",
-    "main.js.map": "./static/js/main.85f567c5.chunk.js.map",
+    "main.css": "./static/css/main.8a3f94eb.chunk.css",
+    "main.js": "./static/js/main.b1e1b507.chunk.js",
+    "main.js.map": "./static/js/main.b1e1b507.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.d16a0d90.js",
     "runtime-main.js.map": "./static/js/runtime-main.d16a0d90.js.map",
     "static/js/2.1545664e.chunk.js": "./static/js/2.1545664e.chunk.js",
     "static/js/2.1545664e.chunk.js.map": "./static/js/2.1545664e.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.b8bbbd9d.chunk.css.map": "./static/css/main.b8bbbd9d.chunk.css.map",
+    "static/css/main.8a3f94eb.chunk.css.map": "./static/css/main.8a3f94eb.chunk.css.map",
     "static/js/2.1545664e.chunk.js.LICENSE.txt": "./static/js/2.1545664e.chunk.js.LICENSE.txt",
     "static/media/CV-Irene-Rueda-Vega.61cedec5.pdf": "./static/media/CV-Irene-Rueda-Vega.61cedec5.pdf",
     "static/media/arrow.1b2fa0a4.svg": "./static/media/arrow.1b2fa0a4.svg",
@@ -24,15 +24,15 @@
     "static/media/gitHub.76f77de3.svg": "./static/media/gitHub.76f77de3.svg",
     "static/media/github_hover.b1a2b5b1.svg": "./static/media/github_hover.b1a2b5b1.svg",
     "static/media/cover.scss": "./static/media/scrollMouse.236a01ae.svg",
-    "static/media/icons01.eeb2da88.svg": "./static/media/icons01.eeb2da88.svg",
-    "static/media/icons02.efd6f268.svg": "./static/media/icons02.efd6f268.svg",
-    "static/media/icons03.dd989762.svg": "./static/media/icons03.dd989762.svg",
+    "static/media/htmlSassGulp.3b556576.svg": "./static/media/htmlSassGulp.3b556576.svg",
     "static/media/insideMood.4a58d10f.png": "./static/media/insideMood.4a58d10f.png",
     "static/media/ireneFooter.0c8cb67b.svg": "./static/media/ireneFooter.0c8cb67b.svg",
+    "static/media/jsHtmlCss.35ea1c09.svg": "./static/media/jsHtmlCss.35ea1c09.svg",
     "static/media/juegos.4aa4f2ca.svg": "./static/media/juegos.4aa4f2ca.svg",
     "static/media/libros.0a597173.svg": "./static/media/libros.0a597173.svg",
     "static/media/musica.69cbbe11.svg": "./static/media/musica.69cbbe11.svg",
     "static/media/programar.22c8efda.svg": "./static/media/programar.22c8efda.svg",
+    "static/media/reactHtmlSass.8bbe4dcb.svg": "./static/media/reactHtmlSass.8bbe4dcb.svg",
     "static/media/rickMorty.0d5d6f20.png": "./static/media/rickMorty.0d5d6f20.png",
     "static/media/web.60af09ad.svg": "./static/media/web.60af09ad.svg",
     "static/media/web_hover.38ac385d.svg": "./static/media/web_hover.38ac385d.svg"
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.d16a0d90.js",
     "static/js/2.1545664e.chunk.js",
-    "static/css/main.b8bbbd9d.chunk.css",
-    "static/js/main.85f567c5.chunk.js"
+    "static/css/main.8a3f94eb.chunk.css",
+    "static/js/main.b1e1b507.chunk.js"
   ]
 }
