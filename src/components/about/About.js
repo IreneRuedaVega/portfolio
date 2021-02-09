@@ -67,39 +67,39 @@ const About = () => {
               <img
                 className="favourites__part-1--logo"
                 src={Music}
-                alt="Logo de react"
+                alt="Uno de mis hobbies es escuchar música"
               />
               <img
                 className="favourites__part-1--logo"
                 src={Cinema}
-                alt="Logo de JavaScript"
+                alt="Me gusta ir al cine"
               />
               <img
                 className="favourites__part-1--logo"
                 src={Read}
-                alt="Logo de Html"
+                alt="Me encanta leer"
               />
               <img
                 className="favourites__part-1--logo"
                 src={Play}
-                alt="Logo de Css"
+                alt="Jugar a juegos de mesa"
               />
             </div>
             <div className="favourites__part-2">
               <img
                 className="favourites__part-2--logo"
                 src={Camera}
-                alt="Logo de Sass"
+                alt="Me gusta hacer fotos"
               />
               <img
                 className="favourites__part-2--logo"
                 src={Teacher}
-                alt="Logo de Git"
+                alt="Mi otra vocación es la educación"
               />
               <img
                 className="favourites__part-2--logo"
                 src={Code}
-                alt="Logo de Gulp"
+                alt="Me encanta programar"
               />
             </div>
           </div>
