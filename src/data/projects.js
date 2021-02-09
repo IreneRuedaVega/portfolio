@@ -4,9 +4,9 @@ import likeWatch from "../media/likeWatch.png";
 import rickMorty from "../media/rickMorty.png";
 import drums from "../media/drums.png";
 import insideMood from "../media/insideMood.png";
-import iconsProject01 from "../media/icons01.svg";
-import iconsProject02 from "../media/icons02.svg";
-import iconsProject03 from "../media/icons03.svg";
+import iconsProjectsReact from "../media/reactHtmlSass.svg";
+import iconsProjectsJS from "../media/jsHtmlCss.svg";
+import iconsProjectsHTML from "../media/htmlSassGulp.svg";
 
 const PROJECTS_DATA = [
   {
@@ -17,7 +17,8 @@ const PROJECTS_DATA = [
       "Aplicación web que permite buscar personajes de Rick and Morty. Podemos buscarlos a través de su nombre, género, especie o estado y ordenarlos alfabéticamente.",
     github: "https://github.com/IreneRuedaVega/rick-and-morty-finder",
     web: "https://ireneruedavega.github.io/rick-and-morty-finder/#/",
-    icons: iconsProject03,
+    icons: iconsProjectsReact,
+    alt: "React, HTML5, Sass",
   },
 
   {
@@ -28,7 +29,8 @@ const PROJECTS_DATA = [
       "Aplicación web que permite hacer un registro diario del estado de ánimo de los usuarios.",
     github: "https://github.com/IreneRuedaVega/inside-mood-calendar",
     web: "https://ireneruedavega.github.io/inside-mood-calendar/#/",
-    icons: iconsProject03,
+    icons: iconsProjectsReact,
+    alt: "React, HTML5, Sass",
   },
 
   {
@@ -39,7 +41,8 @@ const PROJECTS_DATA = [
       "Aplicación web, que mediante la API de TV Maze, permite al usuario buscar series y crear una lista de favoritas y guardar en el local storage.",
     github: "https://github.com/IreneRuedaVega/like.watch",
     web: "https://ireneruedavega.github.io/like.watch/",
-    icons: iconsProject02,
+    icons: iconsProjectsJS,
+    alt: "JavaScript, HTML5, CSS3",
   },
 
   {
@@ -50,7 +53,8 @@ const PROJECTS_DATA = [
       "Aplicación web que permite al usuario hacer música mediante distintos sonidos de bateria manejados a través del teclado o el ratón.",
     github: "https://github.com/IreneRuedaVega/drum-kit",
     web: "https://ireneruedavega.github.io/drum-kit/",
-    icons: iconsProject02,
+    icons: iconsProjectsJS,
+    alt: "JavaScript, HTML5, CSS3",
   },
 
   {
@@ -61,7 +65,8 @@ const PROJECTS_DATA = [
       "Juego que consiste en adivinar el número secreto. El juego te da pistas de si el número que estás adivinando es mayor o menor para llegar al correcto.",
     github: "https://github.com/IreneRuedaVega/adivina-el-numero",
     web: "https://ireneruedavega.github.io/adivina-el-numero/",
-    icons: iconsProject02,
+    icons: iconsProjectsJS,
+    alt: "JavaScript, HTML5, CSS3",
   },
 
   {
@@ -72,7 +77,8 @@ const PROJECTS_DATA = [
       "Web responsive colaborativa que cuenta con la presentación, descripción y datos de contacto del equipo y un formulario de contacto.",
     github: "https://github.com/IreneRuedaVega/B.A.I.L.A",
     web: "https://ireneruedavega.github.io/B.A.I.L.A/",
-    icons: iconsProject01,
+    icons: iconsProjectsHTML,
+    alt: "HTML5, Sass, Gulp",
   },
 ];
 

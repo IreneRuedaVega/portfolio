@@ -11,17 +11,20 @@ const Projects = ({ data }) => {
         <h2 className="projects-container__title--h2">Mis proyectos</h2>
       </div>
       <div className="projects-container__wrapper">
-        {data.map(({ id, title, description, github, web, img, icons }) => (
-          <Project
-            key={id}
-            title={title}
-            description={description}
-            github={github}
-            web={web}
-            img={img}
-            icons={icons}
-          />
-        ))}
+        {data.map(
+          ({ id, title, description, github, web, img, icons, alt }) => (
+            <Project
+              key={id}
+              title={title}
+              description={description}
+              github={github}
+              web={web}
+              img={img}
+              icons={icons}
+              alt={alt}
+            />
+          )
+        )}
       </div>
       <div className="projects-container__more-projects">
         <img

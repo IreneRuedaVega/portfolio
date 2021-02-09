@@ -8,7 +8,7 @@ import webHover from "../../media/web_hover.svg";
 import flipRight from "../../media/flipDerecha.svg";
 import flipRightHover from "../../media/flipDerecha_blanco.svg";
 
-const Project = ({ img, title, description, github, web, icons }) => {
+const Project = ({ img, title, description, github, web, icons, alt }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleClick = () => {
@@ -119,7 +119,7 @@ const Project = ({ img, title, description, github, web, icons }) => {
           <h3 className="project__card-title">{title}</h3>
           <p className="project__card-description">{description}</p>
           <div className="project__card-technologies">
-            <img src={icons} alt="Logos tecnologías front-end" />
+            <img src={icons} alt={alt} title={alt} />
           </div>
         </div>
       </ReactCardFlip>

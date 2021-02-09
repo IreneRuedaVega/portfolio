@@ -138,8 +138,8 @@
   &__card-technologies {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
     margin: 16px 16px;
   }
 }
