@@ -34,7 +34,7 @@ const Navbar = ({ isScrolling }) => {
           onClick={handleClick}
         >
           <HashLink to="#aboutMe" className="connections__link">
-            Sobre mí
+            Sobre <span className="connections__link--span">mí</span>
           </HashLink>
         </li>
         <li
@@ -42,7 +42,7 @@ const Navbar = ({ isScrolling }) => {
           onClick={handleClick}
         >
           <HashLink to="#projects" className="connections__link">
-            Mis proyectos
+            Proyectos
           </HashLink>
         </li>
         <li

@@ -93,8 +93,8 @@ const About = () => {
               <img
                 className="favourites__part-2--logo"
                 src={Camera}
-                alt="La fotografía"
-                title="La fotografía"
+                alt="Fotografía"
+                title="Fotografía"
               />
               <img
                 className="favourites__part-2--logo"
