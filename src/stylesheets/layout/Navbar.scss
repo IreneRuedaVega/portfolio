@@ -66,8 +66,9 @@
       &--section {
         margin: 0;
         text-align: left;
-        font-size: 18px;
+        font-size: 24px;
         font-weight: 500;
+        margin: 64px 0;
       }
 
       &--section:active {
@@ -78,8 +79,9 @@
     @media all and (max-width: 320px) {
       &--section {
         text-align: left;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 500;
+        margin: 40px 0;
       }
 
       &--section:active {
@@ -115,23 +117,14 @@
   @media all and (max-width: 768px) {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: $color-secondary;
     left: 0;
     opacity: 1;
     z-index: 1;
-    align-items: center;
     color: white;
     transition: all 0.5s ease;
-
-    &--section {
-      text-align: left;
-      font-size: 18px;
-      font-weight: 500;
-    }
-
-    &--section:active {
-      color: $color-light;
-    }
   }
 }
 
@@ -139,6 +132,8 @@
   &__link {
     text-decoration: none;
     color: $color-tertiary;
+    text-transform: uppercase;
+    font-weight: 400;
   }
 
   &__link:hover {

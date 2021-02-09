@@ -67,20 +67,20 @@ const About = () => {
               <img
                 className="favourites__part-1--logo"
                 src={Music}
-                alt="Uno de mis hobbies es escuchar música"
-                title="Uno de mis hobbies es escuchar música"
+                alt="Escuchar música"
+                title="Escuchar música"
               />
               <img
                 className="favourites__part-1--logo"
                 src={Cinema}
-                alt="Me gusta ir al cine"
-                title="Me gusta ir al cine"
+                alt="Ir al cine y ver peliculas"
+                title="Ir al cine y ver peliculas"
               />
               <img
                 className="favourites__part-1--logo"
                 src={Read}
-                alt="Me encanta leer"
-                title="Me encanta leer"
+                alt="Leer"
+                title="Leer"
               />
               <img
                 className="favourites__part-1--logo"
@@ -93,20 +93,20 @@ const About = () => {
               <img
                 className="favourites__part-2--logo"
                 src={Camera}
-                alt="Me gusta hacer fotos"
-                title="Me gusta hacer fotos"
+                alt="La fotografía"
+                title="La fotografía"
               />
               <img
                 className="favourites__part-2--logo"
                 src={Teacher}
-                alt="Mi otra vocación es la educación"
-                title="Mi otra vocación es la educación"
+                alt="Enseñar"
+                title="Enseñar"
               />
               <img
                 className="favourites__part-2--logo"
                 src={Code}
-                alt="Me encanta programar"
-                title="Me encanta programar"
+                alt="Programar"
+                title="Programar"
               />
             </div>
           </div>
