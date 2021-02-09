@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.8a3f94eb.chunk.css",
-    "main.js": "./static/js/main.b1e1b507.chunk.js",
-    "main.js.map": "./static/js/main.b1e1b507.chunk.js.map",
+    "main.css": "./static/css/main.c5aa1d90.chunk.css",
+    "main.js": "./static/js/main.67b9019d.chunk.js",
+    "main.js.map": "./static/js/main.67b9019d.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.d16a0d90.js",
     "runtime-main.js.map": "./static/js/runtime-main.d16a0d90.js.map",
     "static/js/2.1545664e.chunk.js": "./static/js/2.1545664e.chunk.js",
     "static/js/2.1545664e.chunk.js.map": "./static/js/2.1545664e.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.8a3f94eb.chunk.css.map": "./static/css/main.8a3f94eb.chunk.css.map",
+    "static/css/main.c5aa1d90.chunk.css.map": "./static/css/main.c5aa1d90.chunk.css.map",
     "static/js/2.1545664e.chunk.js.LICENSE.txt": "./static/js/2.1545664e.chunk.js.LICENSE.txt",
     "static/media/CV-Irene-Rueda-Vega.61cedec5.pdf": "./static/media/CV-Irene-Rueda-Vega.61cedec5.pdf",
     "static/media/arrow.1b2fa0a4.svg": "./static/media/arrow.1b2fa0a4.svg",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.d16a0d90.js",
     "static/js/2.1545664e.chunk.js",
-    "static/css/main.8a3f94eb.chunk.css",
-    "static/js/main.b1e1b507.chunk.js"
+    "static/css/main.c5aa1d90.chunk.css",
+    "static/js/main.67b9019d.chunk.js"
   ]
 }
