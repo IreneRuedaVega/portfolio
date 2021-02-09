@@ -33,8 +33,10 @@ const Contact = () => {
       </div>
       <div className="footer__contact">
         <div className="footer__contact--design-by">
-          Design &#64; Javier Santos &#124; Irene Rueda
+          <div>Desarrollado con &#128156; por Irene Rueda &#64; 2021</div>
+          Diseño: Irene Rueda &#124; Javier Santos
         </div>
+
         <div className="footer__contact--links social">
           <a
             className="social__links"
