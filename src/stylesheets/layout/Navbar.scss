@@ -52,21 +52,21 @@
       display: flex;
     }
 
-    @media all and (max-width: 768px) {
-      width: 50%;
-      position: absolute;
+    @media all and (max-width: 900px) {
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
-      top: 0;
-      left: 0;
+      width: 100vw;
       height: 100vh;
-      background-color: $color-secondary;
-      transition: 0.5s ease-in-out;
-      transform: translateX(-500px);
+      position: absolute;
+      top: 75px;
+      opacity: 0;
+      transition: all 0.5s ease;
+      justify-content: space-around;
+      align-items: center;
+      padding-bottom: 100px;
 
       &--section {
-        margin: 32px 0 0 32px;
+        margin: 0;
         text-align: left;
         font-size: 18px;
         font-weight: 500;
@@ -79,7 +79,6 @@
 
     @media all and (max-width: 320px) {
       &--section {
-        margin: 32px 0 0 16px;
         text-align: left;
         font-size: 14px;
         font-weight: 500;
@@ -114,6 +113,30 @@
   }
 }
 
+.active {
+  @media all and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    background: $color-secondary;
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+    align-items: center;
+    color: white;
+    transition: all 0.5s ease;
+
+    &--section {
+      text-align: left;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    &--section:active {
+      color: $color-light;
+    }
+  }
+}
+
 .connections {
   &__link {
     text-decoration: none;
@@ -126,6 +149,6 @@
 }
 
 .scrolling {
-  background-color: #2a2a36;
+  background-color: $color-secondary;
   transition: all 0.5s ease;
 }

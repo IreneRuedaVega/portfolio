@@ -15,7 +15,11 @@ const Navbar = ({ isScrolling }) => {
     });
   };
 
-  const [open, setOpen] = useState(false);
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = () => {
+    setClicked(!clicked);
+  };
 
   return (
     <nav className={`navbar ${isScrolling > 20 ? "scrolling" : null}`}>
@@ -24,28 +28,35 @@ const Navbar = ({ isScrolling }) => {
         <span className="navbar__logo--span ">RuedaVega</span>
         &#47;&#62;
       </div>
-      <ul
-        className="navbar__items"
-        style={{
-          transform: open ? "translateX(0px)" : "",
-        }}
-      >
-        <li className="navbar__items--section connections">
+      <ul className={clicked ? "navbar__items active" : "navbar__items"}>
+        <li
+          className="navbar__items--section connections"
+          onClick={handleClick}
+        >
           <HashLink to="#aboutMe" className="connections__link">
             Sobre mí
           </HashLink>
         </li>
-        <li className="navbar__items--section connections">
+        <li
+          className="navbar__items--section connections"
+          onClick={handleClick}
+        >
           <HashLink to="#projects" className="connections__link">
             Mis proyectos
           </HashLink>
         </li>
-        <li className="navbar__items--section connections">
+        <li
+          className="navbar__items--section connections"
+          onClick={handleClick}
+        >
           <HashLink to="#skills" className="connections__link">
             Habilidades
           </HashLink>
         </li>
-        <li className="navbar__items--section connections">
+        <li
+          className="navbar__items--section connections "
+          onClick={handleClick}
+        >
           <HashLink
             to="#contact"
             className="connections__link"
@@ -56,8 +67,12 @@ const Navbar = ({ isScrolling }) => {
         </li>
       </ul>
       <i
-        className="fas fa-bars navbar__items--burger-nav"
-        onClick={() => setOpen(!open)}
+        className={
+          clicked
+            ? "fas fa-times navbar__items--burger-nav"
+            : "fas fa-bars navbar__items--burger-nav"
+        }
+        onClick={handleClick}
       ></i>
     </nav>
   );
