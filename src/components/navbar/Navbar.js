@@ -67,6 +67,7 @@ const Navbar = ({ isScrolling }) => {
         </li>
       </ul>
       <i
+        alt="Menú"
         className={
           clicked
             ? "fas fa-times navbar__items--burger-nav"
