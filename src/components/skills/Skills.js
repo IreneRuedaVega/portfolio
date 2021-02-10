@@ -1,5 +1,5 @@
 import React from "react";
-import "../../stylesheets/layout/skills.scss";
+import "../../stylesheets/layout/Skills.scss";
 import WebDevContent from "./sections/WebDevContent";
 import LayoutContent from "./sections/LayoutContent";
 import TeamWorkContent from "./sections/TeamWorkContent";

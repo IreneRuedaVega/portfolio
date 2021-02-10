@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../stylesheets/layout/learning.scss";
+import "../../../stylesheets/layout/Learning.scss";
 
 const Learning = () => {
   return (

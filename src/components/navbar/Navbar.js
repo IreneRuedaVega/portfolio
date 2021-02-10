@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HashLink } from "react-router-hash-link";
-import "../../stylesheets/layout/navbar.scss";
+import "../../stylesheets/layout/Navbar.scss";
 
 const Navbar = ({ isScrolling }) => {
   //scroll to the top

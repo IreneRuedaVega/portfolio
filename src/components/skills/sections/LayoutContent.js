@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../stylesheets/layout/skillsContent.scss";
+import "../../../stylesheets/layout/SkillsContent.scss";
 
 const LayoutContent = ({
   title,
