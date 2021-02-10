@@ -69,7 +69,7 @@ Este proyecto se ejecuta con React. Una vez instalado debes:
 2. Abrir la terminal.
 3. Usar el siguiente comando para instalar el proyecto: `npm install` en la terminal para instalar las dependencias.
 4. A continuación para ejecutar el proyecto y probarlo en desarrollo usa `npm start` en la terminal. Abre (http://localhost:3000) para verlo en el navegador.
-5. Para publicar el proyecto a producción usa el comando: `npm run docs`.
+5. Para publicar el proyecto a producción usa el comando: `npm run build`.
 
 ### Diseñado por:
 
